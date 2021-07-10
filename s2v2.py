@@ -8,6 +8,7 @@ class Faboncii_series:
     self.t2 = 2
     self.next_num = self.t1 +self.t2
     self.output_sum = 2
+    return self.create_faboncii()
 
   def create_faboncii(self):
     while True:
@@ -22,5 +23,4 @@ class Faboncii_series:
    
 if __name__ == "__main__":
   obj = Faboncii_series()
-  obj.create_faboncii()
   print(obj.output_sum)
